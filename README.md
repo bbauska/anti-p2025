@@ -1,3 +1,3 @@
-# 3rdBook.bauska.org
+# anti-p2025.bauska.org
 
-Book layout.  Topics; Crop Circles & UFO's.
+All the shit which comprises the cold heartless Project 2025 manifesto by the heritage foundation. What 85 million dollar will buy you.
