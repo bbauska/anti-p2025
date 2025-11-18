@@ -10,12 +10,13 @@
 body {
   background-color: #1d1f20;  /* very dark blue */
   color: #e5e5e5;  /* very light gray */
-  font: 14px/1.25 'Crimson Text', sans-serif;
+  font: 16px/1.50 'Crimson Text', sans-serif;  /* was 14px/1.25 */
   margin: 0;
 }
 
 /* was font: 16px */
 #wrapper {
+  font: 16px;
   margin-left: auto;
   margin-right: auto;
   max-width: 80em;
@@ -44,7 +45,7 @@ p:first-line { line-height: 100%; }
 /*** OPEN BOOK ***/
 .open-book {
   background: #fff;  /* white */
-  box-shadow: rgba(0,0,0,0.5) 0 1em 3em;
+  box-shadow: rgba(0,0,0,0.5) 0 1em 3em;  /* very dark (mostly black) blue */
   color: #000;  /* black */
   padding: 2em;
 }
@@ -54,7 +55,7 @@ p:first-line { line-height: 100%; }
 
 /* open-book Highlight */
 .open-book *::-moz-selection {
-  background: rgba(222,255,0,0.75);
+  background: rgba(222,255,0,0.75);  /* #deff00bf */
 }
 .open-book *::selection {
   background: rgba(222,255,0,0.75);
@@ -252,7 +253,7 @@ sup {
     position: relative;
   }
   .open-book:before {
-    background-color: #8b4513;  /* dark orange */
+    background-color: #013220;  /* dark green, was #8b4513 dark orange [brown tone] */
     border-radius: 0.25em;
     bottom: -1em;
     content: '';
@@ -288,7 +289,7 @@ sup {
     background: #fff;
     border-radius: 25%;
     content: '';
-    height: 2em;
+    height: 3em;  /* 2em */
     position: absolute;
     z-index: -1;
     width: calc(50% + 2em);
@@ -301,7 +302,7 @@ sup {
   .open-book header:after,
   .open-book footer:before,
   .open-book footer:after {
-      border-top-right-radius: 0;
+    border-top-right-radius: 0;
   }
   .open-book header:before,
   .open-book header:after,
@@ -351,7 +352,7 @@ sup {
   
   /* open-book Chapter Title */
   .open-book .chapter-title {
-    font-size: 2em;  /* 3em; */
+    font-size: 3em;  /* 3em; */
   }
   .open-book .chapter-title:before,
   .open-book .chapter-title:after {
@@ -360,7 +361,7 @@ sup {
   
   /* open-book Body Copy */
   .open-book article p {
-    text-indent: 1.25em;  /* 2em;, 3em; */
+    text-indent: 3em;  /* 1.25em; 2em;, 3em; */
   }
   .open-book article > ul,
   .open-book article > ol {
